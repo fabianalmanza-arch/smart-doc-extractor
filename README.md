@@ -2,7 +2,7 @@
 
 Microservicio de extracción estructurada de datos desde documentos PDF (Hojas de Vida / CVs) construido con **FastAPI**, **Pydantic v2** y **Google Gemini Structured Outputs**, acompañado de una interfaz web minimalista para pruebas instantáneas.
 
-🔗 **Demo en vivo:** [https://smart-doc-extractor.onrender.com](https://smart-doc-extractor.onrender.com) *(Actualizar con tu link de Render)*  
+🔗 **Demo en vivo:** https://smart-doc-extractor-r61h.onrender.com
 📘 **Documentación Interactiva (Swagger UI):** `/docs`
 
 ---
