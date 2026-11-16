@@ -17,7 +17,7 @@ class DocumentExtractorService:
     def __init__(self) -> None:
         self.client = genai.Client(api_key=settings.GEMINI_API_KEY)
         # Lista ordenada de modelos: principal + respaldo por si hay alta demanda
-        self.models = ["gemini-3.8-flash", "gemini-3.8-flash-lite"]
+        self.models = ["gemini-3.8-flash", "gemini-3.8-flash-lite", "gemini-2.5-flash-lite"]
 
     async def extract_candidate_profile(
         self, file_bytes: bytes, mime_type: str = "application/pdf"
